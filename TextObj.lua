@@ -92,7 +92,7 @@ end
 -- @return none
 function TextObj:update_text(content, font_size, color)
    if content then
-      self.text:set(new_content)
+      self.text:set(content)
    end
    if font_size then
       local new_font = love.graphics.newFont(self.font_path, font_size)
